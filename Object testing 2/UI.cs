@@ -18,6 +18,9 @@ namespace Object_testing_2
             name = Console.ReadLine();
             Console.WriteLine("Hi " + name + " and welcome to your personalised workout plan");
         }
+        /// <summary>
+        /// informs user of amount of sets and reps needed to complete and rest timings
+        /// </summary>
         public static void RequiredNumbersAndTimings()
         {
             ChestWorkout workOutPlan = new();
