@@ -6,17 +6,14 @@ namespace Object_testing_2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Please enter your name.");
-            string name;
-            name = Console.ReadLine();
-            Console.WriteLine($"Hi " + name + " and welcome to your personalised workout plan");
+            UI.DisplayWelcomeScreen();
             
             ChestWorkout workOutPlan = new();
-            //Exercises workOutExercises = new();
+            
             workOutPlan.NumberOfSets = 20;
             workOutPlan.NumberOfRepsPerSets = 10;
             workOutPlan.RestBetweenSets = 60;
-            //workOutExercises.FlatBench = firstExercise;
+           
 
             Console.WriteLine("The number of sets that are required are " + workOutPlan.NumberOfSets + " sets per workout");
             Console.WriteLine("The amount of Reps per set are " + workOutPlan.NumberOfRepsPerSets);
