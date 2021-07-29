@@ -8,6 +8,9 @@ namespace Object_testing_2
 {
     class UI
     {
+        /// <summary>
+        /// Asks user for name then welcomes user
+        /// </summary>
         public static void DisplayWelcomeScreen()
         {
             Console.WriteLine("Please enter your name.");
