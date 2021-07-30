@@ -33,8 +33,10 @@ namespace Object_testing_2
             Console.WriteLine("The amount of Reps per set are " + workOutPlan.NumberOfRepsPerSets);
             Console.WriteLine("You are allowed " + workOutPlan.RestBetweenSets + " seconds rest between sets.");
         }
-
-        public static void ExercicesToComplete()
+        /// <summary>
+        /// informs user of what exercise they need to compete and in what order
+        /// </summary>
+        public static void ExercisesToComplete()
         {
             ChestWorkout workOutPlan = new();
 

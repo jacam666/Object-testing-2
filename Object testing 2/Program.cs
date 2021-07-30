@@ -9,7 +9,7 @@ namespace Object_testing_2
         {
             UI.DisplayWelcomeScreen();                     
             UI.RequiredNumbersAndTimings();
-            UI.ExercicesToComplete();           
+            UI.ExercisesToComplete();           
         }
     }
     public class ChestWorkout
