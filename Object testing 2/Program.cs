@@ -10,7 +10,7 @@ namespace Object_testing_2
             UI.DisplayWelcomeScreen();                     
             UI.RequiredNumbersAndTimings();
             Console.WriteLine("CHEST WORKOUT :");
-            UI.ExercisesToComplete();
+            UI.ChestExercisesToComplete();
 
             LegWorkout workOutPlan = new();
 

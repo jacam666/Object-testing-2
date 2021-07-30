@@ -36,7 +36,7 @@ namespace Object_testing_2
         /// <summary>
         /// informs user of what exercise they need to compete and in what order
         /// </summary>
-        public static void ExercisesToComplete()
+        public static void ChestExercisesToComplete()
         {
             ChestWorkout workOutPlan = new();
 
