@@ -24,11 +24,11 @@ namespace Object_testing_2
         public static void RequiredNumbersAndTimings()
         {
             ChestWorkout workOutPlan = new();
-            
+
             workOutPlan.NumberOfSets = 20;
             workOutPlan.NumberOfRepsPerSets = 10;
             workOutPlan.RestBetweenSets = 60;
-            
+
             Console.WriteLine("The number of sets that are required are " + workOutPlan.NumberOfSets + " sets per workout");
             Console.WriteLine("The amount of Reps per set are " + workOutPlan.NumberOfRepsPerSets);
             Console.WriteLine("You are allowed " + workOutPlan.RestBetweenSets + " seconds rest between sets.");
@@ -54,6 +54,26 @@ namespace Object_testing_2
             Console.WriteLine("Fourth exercise to complete : " + workOutPlan.FourthExercise + " : " + workOutPlan.NumberOfSets + " sets of " + workOutPlan.NumberOfRepsPerSets + " reps per set.");
             Console.WriteLine("Fifth exercise to complete : " + workOutPlan.FifthExercise + " : " + workOutPlan.NumberOfSets + " sets of " + workOutPlan.NumberOfRepsPerSets + " reps per set.");
         }
+
+        public static void LegExercisesToComplete()
+        {
+            LegWorkout workOutPlan = new();
+
+            workOutPlan.NumberOfSets = 20;
+            workOutPlan.NumberOfRepsPerSets = 10;
+            workOutPlan.FirstExercise = " Barbell Squat";
+            workOutPlan.SecondExercise = " Leg Extensions";
+            workOutPlan.ThirdExercise = " Leg Press";
+            workOutPlan.FourthExercise = " Lying Leg Curls";
+            workOutPlan.FifthExercise = " Walking Lunges";
+        
+            Console.WriteLine("First exercise to complete : " + workOutPlan.FirstExercise + " : " + workOutPlan.NumberOfSets + " sets of " + workOutPlan.NumberOfRepsPerSets + " reps per set.");
+            Console.WriteLine("Second exercise to complete : " + workOutPlan.SecondExercise + " : " + workOutPlan.NumberOfSets + " sets of " + workOutPlan.NumberOfRepsPerSets + " reps per set.");
+            Console.WriteLine("Third exercise to complete : " + workOutPlan.ThirdExercise + " : " + workOutPlan.NumberOfSets + " sets of " + workOutPlan.NumberOfRepsPerSets + " reps per set.");
+            Console.WriteLine("Fourth exercise to complete : " + workOutPlan.FourthExercise + " : " + workOutPlan.NumberOfSets + " sets of " + workOutPlan.NumberOfRepsPerSets + " reps per set.");
+            Console.WriteLine("Fifth exercise to complete : " + workOutPlan.FifthExercise + " : " + workOutPlan.NumberOfSets + " sets of " + workOutPlan.NumberOfRepsPerSets + " reps per set.");
+        }
+        
 
     }
 
