@@ -34,7 +34,7 @@ namespace Object_testing_2
             Console.WriteLine("You are allowed " + workOutPlan.RestBetweenSets + " seconds rest between sets.");
         }
         /// <summary>
-        /// informs user of what exercise they need to compete and in what order
+        /// informs user of what chest exercise they need to compete and in what order
         /// </summary>
         public static void ChestExercisesToComplete()
         {
@@ -54,7 +54,9 @@ namespace Object_testing_2
             Console.WriteLine("Fourth exercise to complete : " + workOutPlan.FourthExercise + " : " + workOutPlan.NumberOfSets + " sets of " + workOutPlan.NumberOfRepsPerSets + " reps per set.");
             Console.WriteLine("Fifth exercise to complete : " + workOutPlan.FifthExercise + " : " + workOutPlan.NumberOfSets + " sets of " + workOutPlan.NumberOfRepsPerSets + " reps per set.");
         }
-
+        /// <summary>
+        /// informs user what leg exercise to complete and in what order
+        /// </summary>
         public static void LegExercisesToComplete()
         {
             LegWorkout workOutPlan = new();
