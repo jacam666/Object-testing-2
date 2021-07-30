@@ -24,11 +24,11 @@ namespace Object_testing_2
         public static void RequiredNumbersAndTimings()
         {
             ChestWorkout workOutPlan = new();
-
+            
             workOutPlan.NumberOfSets = 20;
             workOutPlan.NumberOfRepsPerSets = 10;
             workOutPlan.RestBetweenSets = 60;
-
+            
             Console.WriteLine("The number of sets that are required are " + workOutPlan.NumberOfSets + " sets per workout");
             Console.WriteLine("The amount of Reps per set are " + workOutPlan.NumberOfRepsPerSets);
             Console.WriteLine("You are allowed " + workOutPlan.RestBetweenSets + " seconds rest between sets.");
