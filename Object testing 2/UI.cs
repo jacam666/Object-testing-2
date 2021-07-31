@@ -13,7 +13,7 @@ namespace Object_testing_2
         /// </summary>
         public static void DisplayWelcomeScreen()
         {
-            Console.WriteLine("Please enter your name.");
+            Console.WriteLine("Please enter your name :");
             string name;
             name = Console.ReadLine();
             Console.WriteLine("Hi " + name + " and welcome to your personalised workout plan");
