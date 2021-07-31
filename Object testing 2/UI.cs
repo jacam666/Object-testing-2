@@ -156,6 +156,13 @@ namespace Object_testing_2
         {
             Console.WriteLine("SHOULDER WORKOUT");
         }
+        /// <summary>
+        ///  Informs user of what bodypart they are to complete
+        /// </summary>
+        public static void BackWorkoutHeadline()
+        {
+            Console.WriteLine("BACK WORKOUT");
+        }
 
             
 
