@@ -17,7 +17,7 @@ namespace Object_testing_2
             UI.ShoulderExercisesToComplete();
             UI.BackWorkoutHeadline();
             UI.BackExercisesToComplete();
-            Console.WriteLine("ARM WORKOUT");
+            UI.ArmWorkOutHeadline();
             UI.ArmExercisesToComplete();
         }
     }
