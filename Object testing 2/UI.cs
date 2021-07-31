@@ -95,6 +95,9 @@ namespace Object_testing_2
             Console.WriteLine("Fourth exercise to complete : " + workOutPlan.FourthExercise + " : " + workOutPlan.NumberOfSets + " sets of " + workOutPlan.NumberOfRepsPerSets + " reps per set.");
             Console.WriteLine("Fifth exercise to complete : " + workOutPlan.FifthExercise + " : " + workOutPlan.NumberOfSets + " sets of " + workOutPlan.NumberOfRepsPerSets + " reps per set.");
         }
+        /// <summary>
+        /// Informs user of what back exercises to complete
+        /// </summary>
         public static void BackExercisesToComplete()
         {
             BackWorkout workOutPlan = new();
