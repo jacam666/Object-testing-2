@@ -11,7 +11,7 @@ namespace Object_testing_2
             UI.RequiredNumbersAndTimings();
             UI.ChesWorkouttHeadline();
             UI.ChestExercisesToComplete();
-            Console.WriteLine("LEG WORKOUT :");
+            UI.LegWorkoutHeadline();
             UI.LegExercisesToComplete();
             Console.WriteLine("SHOULDER WORKOUT");
             UI.ShoulderExercisesToComplete();
