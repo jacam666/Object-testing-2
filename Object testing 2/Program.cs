@@ -9,7 +9,7 @@ namespace Object_testing_2
         {
             UI.DisplayWelcomeScreen();
             UI.RequiredNumbersAndTimings();
-            Console.WriteLine("CHEST WORKOUT :");
+            UI.ChesWorkouttHeadline();
             UI.ChestExercisesToComplete();
             Console.WriteLine("LEG WORKOUT :");
             UI.LegExercisesToComplete();

@@ -135,6 +135,14 @@ namespace Object_testing_2
             Console.WriteLine("Fourth exercise to complete : " + workOutPlan.FourthExercise + " : " + workOutPlan.NumberOfSets + " sets of " + workOutPlan.NumberOfRepsPerSets + " reps per set.");
             Console.WriteLine("Fifth exercise to complete : " + workOutPlan.FifthExercise + " : " + workOutPlan.NumberOfSets + " sets of " + workOutPlan.NumberOfRepsPerSets + " reps per set.");
         }
+        /// <summary>
+        /// informs user of what bodypart Workout they are to complete
+        /// </summary>
+        public static void ChesWorkouttHeadline()
+        {
+            Console.WriteLine("CHEST WORKOUT :");
+        }
+
             
 
         
