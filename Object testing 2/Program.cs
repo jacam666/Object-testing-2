@@ -17,6 +17,7 @@ namespace Object_testing_2
             UI.ShoulderExercisesToComplete();
             Console.WriteLine("Back Workout");
             UI.BackExercisesToComplete();
+            Console.WriteLine("Arm Workout");
             ArmWorkout workOutPlan = new();
             workOutPlan.NumberOfSets = 20;
             workOutPlan.NumberOfRepsPerSets = 10;
