@@ -149,6 +149,13 @@ namespace Object_testing_2
         {
             Console.WriteLine("LEG WORKOUT :");
         }
+        /// <summary>
+        /// Informs user of what bodypart they are to complete
+        /// </summary>
+        public static void ShoulderWorkoutHeadline()
+        {
+            Console.WriteLine("SHOULDER WORKOUT");
+        }
 
             
 
