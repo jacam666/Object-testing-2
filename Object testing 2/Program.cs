@@ -11,16 +11,14 @@ namespace Object_testing_2
             UI.RequiredNumbersAndTimings();
             Console.WriteLine("CHEST WORKOUT :");
             UI.ChestExercisesToComplete();
-            Console.WriteLine("Leg Workout :");
+            Console.WriteLine("LEG WORKOUT :");
             UI.LegExercisesToComplete();
-            Console.WriteLine("Shoulder Workout");
+            Console.WriteLine("SHOULDER WORKOUT");
             UI.ShoulderExercisesToComplete();
-            Console.WriteLine("Back Workout");
+            Console.WriteLine("BACK WORKOUT");
             UI.BackExercisesToComplete();
-            Console.WriteLine("Arm Workout");
+            Console.WriteLine("ARM WORKOUT");
             UI.ArmExercisesToComplete();
-
-
         }
     }
 
