@@ -24,7 +24,8 @@ namespace Object_testing_2
 
     public class ChestWorkout
     {
-        public int NumberOfSets;
+        public int NumberOfSetsPerWOrkout;
+        public int NumberOfSetsPerExercise;
         public int NumberOfRepsPerSets;
         public int RestBetweenSets;
         public string FirstExercise;
@@ -35,7 +36,8 @@ namespace Object_testing_2
     }
     public class LegWorkout
     {
-        public int NumberOfSets;
+        public int NumberOfSetsPerWOrkout;
+        public int NumberOfSetsPerExercise;
         public int NumberOfRepsPerSets;
         public int RestBetweenSets;
         public string FirstExercise;
@@ -46,7 +48,8 @@ namespace Object_testing_2
     }
     public class ShoulderWorkout
     {
-        public int NumberOfSets;
+        public int NumberOfSetsPerWOrkout;
+        public int NumberOfSetsPerExercise;
         public int NumberOfRepsPerSets;
         public int RestBetweenSets;
         public string FirstExercise;
@@ -57,7 +60,8 @@ namespace Object_testing_2
     }
     public class BackWorkout
     {
-        public int NumberOfSets;
+        public int NumberOfSetsPerWOrkout;
+        public int NumberOfSetsPerExercise;
         public int NumberOfRepsPerSets;
         public int RestBetweenSets;
         public string FirstExercise;
@@ -68,7 +72,8 @@ namespace Object_testing_2
     }
     public class ArmWorkout
     {
-        public int NumberOfSets;
+        public int NumberOfSetsPerWOrkout;
+        public int NumberOfSetsPerExercise;
         public int NumberOfRepsPerSets;
         public int RestBetweenSets;
         public string FirstExercise;
