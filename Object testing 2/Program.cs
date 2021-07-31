@@ -13,7 +13,7 @@ namespace Object_testing_2
             UI.ChestExercisesToComplete();
             Console.WriteLine("Leg Workout :");
             UI.LegExercisesToComplete();
-
+            Console.WriteLine("Shoulder Workout");
             ShoulderWorkout workOutPlan = new();
 
             workOutPlan.NumberOfSets = 20;
