@@ -18,20 +18,7 @@ namespace Object_testing_2
             Console.WriteLine("Back Workout");
             UI.BackExercisesToComplete();
             Console.WriteLine("Arm Workout");
-            ArmWorkout workOutPlan = new();
-            workOutPlan.NumberOfSets = 20;
-            workOutPlan.NumberOfRepsPerSets = 10;
-            workOutPlan.FirstExercise = " Dumbbell Curls";
-            workOutPlan.SecondExercise = " Close Grip Bench";
-            workOutPlan.ThirdExercise = " Preacher Curls";
-            workOutPlan.FourthExercise = " Cable Tricep Pushdown";
-            workOutPlan.FifthExercise = " Barbell Curls";
-
-            Console.WriteLine("First exercise to complete : " + workOutPlan.FirstExercise + " : " + workOutPlan.NumberOfSets + " sets of " + workOutPlan.NumberOfRepsPerSets + " reps per set.");
-            Console.WriteLine("Second exercise to complete : " + workOutPlan.SecondExercise + " : " + workOutPlan.NumberOfSets + " sets of " + workOutPlan.NumberOfRepsPerSets + " reps per set.");
-            Console.WriteLine("Third exercise to complete : " + workOutPlan.ThirdExercise + " : " + workOutPlan.NumberOfSets + " sets of " + workOutPlan.NumberOfRepsPerSets + " reps per set.");
-            Console.WriteLine("Fourth exercise to complete : " + workOutPlan.FourthExercise + " : " + workOutPlan.NumberOfSets + " sets of " + workOutPlan.NumberOfRepsPerSets + " reps per set.");
-            Console.WriteLine("Fifth exercise to complete : " + workOutPlan.FifthExercise + " : " + workOutPlan.NumberOfSets + " sets of " + workOutPlan.NumberOfRepsPerSets + " reps per set.");
+            UI.ArmExercisesToComplete();
 
 
         }
